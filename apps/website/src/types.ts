@@ -53,7 +53,6 @@ export interface DeadlineRow {
   milestone: Milestone;
 }
 
-export type SortKey = "deadline" | "series" | "conference";
 export type ViewFilter = "upcoming" | "all" | "past";
 export type MilestoneFilter = Set<MilestoneType>;
 

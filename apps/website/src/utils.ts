@@ -20,22 +20,28 @@ export const MILESTONE_ABBR: Record<MilestoneType, string> = {
   registration_deadline: "R",
 };
 
-export function formatDate(iso: string): string {
+export function formatDate(iso: string, timeZone?: string): string {
   return new Date(iso).toLocaleDateString("ja-JP", {
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
+    timeZone,
   });
 }
 
 export function formatDateRange(start: string, end: string): string {
   const s = new Date(start);
   const e = new Date(end);
-  if (s.getFullYear() === e.getFullYear()) {
-    const endLabel = e.toLocaleDateString("ja-JP", { month: "2-digit", day: "2-digit" });
-    return `${formatDate(start)} – ${endLabel}`;
+  // Conference dates are calendar dates encoded in UTC, unlike deadline instants.
+  if (s.getUTCFullYear() === e.getUTCFullYear()) {
+    const endLabel = e.toLocaleDateString("ja-JP", {
+      month: "2-digit",
+      day: "2-digit",
+      timeZone: "UTC",
+    });
+    return `${formatDate(start, "UTC")} – ${endLabel}`;
   }
-  return `${formatDate(start)} – ${formatDate(end)}`;
+  return `${formatDate(start, "UTC")} – ${formatDate(end, "UTC")}`;
 }
 
 export function daysUntil(iso: string): number {

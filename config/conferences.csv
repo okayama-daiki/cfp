@@ -24,7 +24,7 @@ SPAA,ACM Symposium on Parallelism in Algorithms and Architectures,https://spaa.a
 SIROCCO,International Colloquium on Structural Information and Communication Complexity,https://sirocco.hiit.fi,true
 OPODIS,International Conference on Principles of Distributed Systems,https://opodis.net,true
 IPCO,Integer Programming and Combinatorial Optimization,https://mathopt.zib.de/?nav=ipco,true
-ISMP,International Symposium on Mathematical Programming,https://www.ismp.or.kr/html/,true
+ISMP,International Symposium on Mathematical Programming,https://mathopt.org/meetings,true
 INFORMS,INFORMS Annual Meeting,https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar,true
 EURO,International Conference on Operations Research,https://www.euro-online.org/web/pages/100/conferences,true
 MIP,The Mixed Integer Programming Workshop,https://www.mixedinteger.org/,true
@@ -50,3 +50,11 @@ LATIN,Latin American Theoretical Informatics Symposium,https://www.latintcs.org/
 IJCAI,International Joint Conference on Artificial Intelligence,https://www.ijcai.org/,true
 ICAPS,International Conference on Automated Planning and Scheduling,https://www.icaps-conference.org/,true
 CP,International Conference on Principles and Practice of Constraint Programming,https://www.a4cp.org/index.php/events/cp-conference-series,true
+WADS,Algorithms and Data Structures Symposium,https://www.wads.org/,true
+COCOON,International Computing and Combinatorics Conference,https://event.ntu.edu.sg/cocoon2026,true
+STACS,Symposium on Theoretical Aspects of Computer Science,https://www.stacs-conf.org/,true
+MFCS,International Symposium on Mathematical Foundations of Computer Science,https://mfcs2026.irif.fr/,true
+FSTTCS,IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science,https://www.fsttcs.org.in/,true
+SOSA,SIAM Symposium on Simplicity in Algorithms,https://www.siam.org/conferences-events/siam-conferences/sosa27/,true
+NeurIPS,Conference on Neural Information Processing Systems,https://neurips.cc/,true
+SOFSEM,International Conference on Current Trends in Theory and Practice of Computer Science,https://www.sofsem.cz/,true

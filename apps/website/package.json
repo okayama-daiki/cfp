@@ -9,10 +9,12 @@
     "preview": "vp preview"
   },
   "dependencies": {
+    "@ant-design/icons": "catalog:",
+    "antd": "catalog:",
     "preact": "catalog:"
   },
   "devDependencies": {
-    "typescript": "~5.9.3",
+    "typescript": "catalog:",
     "vite": "catalog:",
     "vite-plus": "catalog:"
   }

@@ -1,25 +1,4 @@
 .app {
   width: 100%;
-  padding: 12px clamp(16px, 2vw, 32px) 0;
-}
-
-.divider {
-  border: 0;
-  border-top: 1px solid var(--border);
-}
-
-.main {
-  width: 100%;
-}
-
-.message {
-  padding: 32px 0;
-  text-align: center;
-  color: var(--text-muted);
-}
-
-.footer {
-  padding: 12px 0 16px;
-  font-size: 10px;
-  color: var(--text-muted);
+  padding: 24px 12px;
 }

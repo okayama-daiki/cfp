@@ -1,8 +1,21 @@
 # 学会の追加候補
 
-確認日：2026-10-06。公式サイトの対象分野を参考に、研究室の4分類から追加候補を整理した。今回は IWOCA・LATIN・IJCAI・ICAPS・CP を登録し、全51シリーズとなった。登録日程と推定の根拠は[追加記録](data/2026-10-06-added-conferences.md)を参照。
+更新日：2026-10-19。公式サイトの対象分野を参考に、研究室の4分類から追加候補を整理した。WADS・COCOON・STACS・MFCS・FSTTCS・SOSA・NeurIPS・SOFSEM を追加し、全59シリーズとなった。登録日程と推定の根拠は[2026-10-19の追加記録](data/2026-10-19-added-conferences.md)を参照。IWOCA・LATIN・IJCAI・ICAPS・CP の登録根拠は[2026-10-06の追加記録](data/2026-10-06-added-conferences.md)に残している。
 
 ## 今回登録したシリーズ
+
+| シリーズ | ジャンル                                     | 登録内容                                                   |
+| -------- | -------------------------------------------- | ---------------------------------------------------------- |
+| WADS     | Algorithms & Theory / Computational Geometry | 2025年の公式日程・締切、隔年開催に合わせた2027年の推定締切 |
+| COCOON   | Algorithms & Theory                          | 2026年の公式日程・締切、2027年の推定締切                   |
+| STACS    | Algorithms & Theory                          | 2027年の公式日程・公開締切                                 |
+| MFCS     | Algorithms & Theory                          | 2026年の公式日程・締切、2027年の推定締切                   |
+| FSTTCS   | Algorithms & Theory                          | 2026年の公式日程・締切                                     |
+| SOSA     | Algorithms & Theory                          | 2027年の公式日程・公開締切                                 |
+| NeurIPS  | OR / AI                                      | 2026年の主会場日程・Main Track 締切・早期登録締切          |
+| SOFSEM   | Algorithms & Theory                          | 2027年の公式日程・締切                                     |
+
+## 以前登録したシリーズ
 
 | シリーズ | ジャンル                      | 登録内容                                                 |
 | -------- | ----------------------------- | -------------------------------------------------------- |
@@ -14,16 +27,12 @@
 
 ## 未登録の優先候補
 
-| 会議   | 分類案                                       | 追加する理由・公式情報                                                                                                           |
-| ------ | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| GD     | Computational Geometry / Algorithms & Theory | グラフ描画の幾何的表現と組合せ・アルゴリズム的側面を扱う。[GD 2026 CFP](https://graphdrawing.github.io/gd2026/pages/cfp/)        |
-| COCOON | Algorithms & Theory                          | 計算と組合せを扱う会議。既存 TODO にも挙がっている。[COCOON 2026 CFP](https://event.ntu.edu.sg/cocoon2026/pages/call-for-papers) |
-| WADS   | Algorithms & Theory / Computational Geometry | アルゴリズムとデータ構造が中心。計算幾何も対象で、登録済みの SWAT と交互に開催する。[WADS 公式](https://www.wads.org/)           |
-| STACS  | Algorithms & Theory                          | アルゴリズム、計算量、理論計算機科学を補う。[STACS 公式](https://stacs.irif.fr/)                                                 |
-| MFCS   | Algorithms & Theory                          | 理論計算機科学の各分野を扱う。[MFCS 2026](https://mfcs2026.irif.fr/)                                                             |
-| SSS    | Distributed Computing / Algorithms & Theory  | 自己安定化、耐故障性、局所性など、分散アルゴリズムとの関連が強い。[SSS 2026](https://sss2026.conf.lip6.fr/)                      |
-| ICDCN  | Distributed Computing                        | 分散計算とネットワークを扱う。[ICDCN 2027](https://cs3-lab.github.io/icdcn/index.html)                                           |
-| ISCO   | OR / AI / Algorithms & Theory                | 組合せ最適化、整数計画、グラフ・ネットワークアルゴリズムなどを扱う。[ISCO 2026](https://isco2026.com.tr/)                        |
+| 会議  | 分類案                                       | 追加する理由・公式情報                                                                                                    |
+| ----- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| GD    | Computational Geometry / Algorithms & Theory | グラフ描画の幾何的表現と組合せ・アルゴリズム的側面を扱う。[GD 2026 CFP](https://graphdrawing.github.io/gd2026/pages/cfp/) |
+| SSS   | Distributed Computing / Algorithms & Theory  | 自己安定化、耐故障性、局所性など、分散アルゴリズムとの関連が強い。[SSS 2026](https://sss2026.conf.lip6.fr/)               |
+| ICDCN | Distributed Computing                        | 分散計算とネットワークを扱う。[ICDCN 2027](https://cs3-lab.github.io/icdcn/index.html)                                    |
+| ISCO  | OR / AI / Algorithms & Theory                | 組合せ最適化、整数計画、グラフ・ネットワークアルゴリズムなどを扱う。[ISCO 2026](https://isco2026.com.tr/)                 |
 
 ## 対象範囲に応じて追加する候補
 

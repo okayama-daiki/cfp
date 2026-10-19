@@ -38,7 +38,14 @@
         "LATIN",
         "IJCAI",
         "ICAPS",
-        "CP"
+        "CP",
+        "WADS",
+        "COCOON",
+        "STACS",
+        "MFCS",
+        "FSTTCS",
+        "SOSA",
+        "SOFSEM"
       ]
     },
     {
@@ -197,6 +204,41 @@
       "role": "official",
       "url_template": "https://www.a4cp.org/index.php/-102",
       "series_ids": ["CP"]
+    },
+    {
+      "id": "stacs-2027-submissions",
+      "kind": "static_html",
+      "role": "official",
+      "url_template": "https://events.gwdg.de/event/1460/page/476-submissions",
+      "series_ids": ["STACS"]
+    },
+    {
+      "id": "sosa-2027-submissions",
+      "kind": "static_html",
+      "role": "official",
+      "url_template": "https://www.siam.org/conferences-events/siam-conferences/sosa27/submissions/",
+      "series_ids": ["SOSA"]
+    },
+    {
+      "id": "neurips-year-dates",
+      "kind": "static_html",
+      "role": "official",
+      "url_template": "https://neurips.cc/Conferences/${year}/Dates",
+      "series_ids": ["NeurIPS"]
+    },
+    {
+      "id": "neurips-year-cfp",
+      "kind": "static_html",
+      "role": "official",
+      "url_template": "https://neurips.cc/Conferences/${year}/CallForPapers",
+      "series_ids": ["NeurIPS"]
+    },
+    {
+      "id": "sofsem-2027-cfp",
+      "kind": "static_html",
+      "role": "official",
+      "url_template": "https://sofsem2027.conf.uoi.gr/index.php?id=call-for-papers",
+      "series_ids": ["SOFSEM"]
     }
   ]
 }
