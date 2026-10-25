@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T04:13:13Z",
+  "generated_at": "2026-10-25T23:17:14Z",
   "conference_series": [
     {
       "id": "PODC",
@@ -1780,7 +1780,7 @@
             {
               "type": "submission_deadline",
               "at_utc": "2026-11-03T11:59:59Z",
-              "source_url": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+              "source_url": "https://acm-stoc.org/stoc2027/",
               "is_estimated": false
             },
             {
@@ -2334,7 +2334,7 @@
             {
               "type": "full_paper_submission_deadline",
               "at_utc": "2026-06-30T11:59:59Z",
-              "source_url": "https://www.algo-door.com/isaac2026/call-for-papers.html",
+              "source_url": "https://www.algo-door.com/isaac2026/",
               "is_estimated": false
             },
             {
@@ -2816,7 +2816,7 @@
             {
               "type": "full_paper_submission_deadline",
               "at_utc": "2026-06-02T11:59:59Z",
-              "source_url": "https://www.disc-conference.org/wp/disc2026/call-for-papers/",
+              "source_url": "https://www.disc-conference.org/wp/disc2026/",
               "is_estimated": false
             },
             {
@@ -3037,15 +3037,15 @@
           "end_at_utc": "2027-07-30T23:59:59Z",
           "milestones": [
             {
-              "type": "registration_deadline",
-              "at_utc": "2027-03-15T00:00:00Z",
-              "source_url": "https://ismp2027.mathopt.nl/",
-              "is_estimated": false
-            },
-            {
               "type": "abstract_submission_deadline",
               "at_utc": "2027-01-15T23:59:59Z",
               "source_url": "https://ismp2027.mathopt.nl/registration/submission",
+              "is_estimated": false
+            },
+            {
+              "type": "registration_deadline",
+              "at_utc": "2027-03-15T00:00:00Z",
+              "source_url": "https://ismp2027.mathopt.nl/",
               "is_estimated": false
             }
           ],
